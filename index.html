@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="A little romantic surprise made with love for Dhani.">
+  <title>For Dhani ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow glow-one"></div>
+  <div class="ambient-glow glow-two"></div>
+  <div id="hearts" class="hearts-layer" aria-hidden="true"></div>
+
+  <main class="page-shell">
+    <header class="topline">
+      <span class="tiny-heart" aria-hidden="true">♡</span>
+      <span>sirf tumhare liye</span>
+      <span class="tiny-heart" aria-hidden="true">♡</span>
+    </header>
+
+    <section class="hero card" aria-labelledby="hero-title">
+      <div class="flower flower-left" aria-hidden="true"><span>✿</span></div>
+      <div class="flower flower-right" aria-hidden="true"><span>✿</span></div>
+      <div class="eyebrow"><span class="sparkle">✧</span> a little something from my heart <span class="sparkle">✧</span></div>
+      <div class="hero-heart" aria-hidden="true">♥</div>
+      <p class="small-intro">Meri pyaari si</p>
+      <h1 id="hero-title">Dhani<span class="name-heart">♡</span></h1>
+      <p class="hero-copy">Duniya mein bahut saari khoobsurat cheezein hain…<br>par meri favourite feeling <em>tum</em> ho.</p>
+      <button id="revealBtn" class="primary-btn" type="button">Tumhare liye ek baat hai <span>♡</span></button>
+      <p class="hint">tap karo, ek chhota sa secret hai ✨</p>
+      <div class="petal petal-a" aria-hidden="true"></div>
+      <div class="petal petal-b" aria-hidden="true"></div>
+    </section>
+
+    <section id="messageSection" class="message-section card" hidden aria-live="polite">
+      <div class="section-kicker">dil se, tumhare liye</div>
+      <h2>Ek chhoti si baat…</h2>
+      <p id="loveMessage" class="love-message">Tum meri life ka woh hissa ho jahan aake dil ko sukoon milta hai.</p>
+      <div class="message-controls">
+        <button id="nextMessageBtn" class="secondary-btn" type="button">Ek aur baat sunogi? <span>♡</span></button>
+        <button id="heartBtn" class="icon-btn" type="button" aria-label="Send a heart" title="Send a heart">♥</button>
+      </div>
+      <p id="messageCount" class="message-count">1 / 5</p>
+    </section>
+
+    <section class="flower-garden" aria-label="A little flower garden">
+      <div class="garden-heading">
+        <span class="line"></span><span>tumhari smile jaisa</span><span class="line"></span>
+      </div>
+      <div class="garden" aria-hidden="true">
+        <div class="stem stem-one"><div class="bloom bloom-pink"><i></i><i></i><i></i><i></i><i></i><b>♥</b></div><span class="leaf leaf-one"></span></div>
+        <div class="stem stem-two"><div class="bloom bloom-cream"><i></i><i></i><i></i><i></i><i></i><b>♡</b></div><span class="leaf leaf-two"></span></div>
+        <div class="stem stem-three"><div class="bloom bloom-rose"><i></i><i></i><i></i><i></i><i></i><b>♥</b></div><span class="leaf leaf-three"></span></div>
+      </div>
+      <p class="garden-note">Ek phool tumhare liye… aur baaki saare bhi 🌷</p>
+    </section>
+
+    <section class="final-note card">
+      <div class="mini-sparkles" aria-hidden="true">✧ ˚ · .</div>
+      <p class="final-label">one last thing, Dhani</p>
+      <h2>Bas aise hi rehna…<br><em>meri favourite person.</em></h2>
+      <p class="final-copy">Perfect hona zaroori nahi hai, jaan. Tum jaisi ho, waise hi special ho. Aur main chahta hoon ki tum hamesha yaad rakho — tumhari khushi, tumhari smile aur tumhara sukoon matter karta hai. ♡</p>
+      <button id="hugBtn" class="outline-btn" type="button">Virtual hug bheju? <span>🫂</span></button>
+      <p id="hugReply" class="hug-reply" hidden>Sending the biggest, warmest hug to you, Dhani! 🩷🤗</p>
+    </section>
+
+    <footer>
+      <p>made with <span class="footer-heart">♥</span> and a little extra pyaar</p>
+      <button id="musicBtn" class="music-btn" type="button" aria-pressed="false"><span id="musicIcon">♫</span> <span id="musicText">Play soft music</span></button>
+      <p class="footer-small">for Dhani, always ♡</p>
+    </footer>
+  </main>
+
+  <audio id="bgMusic" loop preload="none">
+    <!-- Add your own royalty-free MP3 as "music.mp3" in this folder to enable music. -->
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
