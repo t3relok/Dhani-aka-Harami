@@ -2,7 +2,7 @@
 const loveMessages = [
   "Tum meri life ka woh hissa ho jahan aake dil ko sukoon milta hai. ♡",
   "Tumhe har baar perfect hone ki zaroorat nahi, Dhani. Tum jaisi ho, mere liye bahut special ho.",
-  "Agar kabhi tumhara din achha na ho, toh yaad rakhna — koi hai jo tumhari smile dekhna chahta hai. 🩷",
+  "Agar kabhi tumhara din achha na ho, toh yaad rakhna koi hai jo tumhari smile dekhna chahta hai. 🩷",
   "Mujhe tumhare saath sirf achhe moments nahi, normal se boring moments bhi share karne hain.",
   "Main har cheez ka promise nahi kar sakta, par itna zaroor: main tumhari baat samajhne ki koshish karta rahunga. ♡"
 ];
